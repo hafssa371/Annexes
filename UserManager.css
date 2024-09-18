@@ -1,0 +1,85 @@
+.user-manager {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.user-manager h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.user-manager form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-manager label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.user-manager input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.user-manager button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user-manager button:hover {
+    background-color: #0056b3;
+}
+
+.user-manager ul {
+    list-style: none;
+    padding: 0;
+}
+
+.user-manager li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-manager .delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.user-manager .delete-button:hover {
+    background-color: #c82333;
+}
+
+@media (max-width: 600px) {
+    .user-manager {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .user-manager form {
+        gap: 5px;
+    }
+
+    .user-manager li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

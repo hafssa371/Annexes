@@ -1,0 +1,93 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 98%;
+    width: 220px;
+    background-color: #32475b;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+  }
+
+  .sidebar a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.sidebar a:hover {
+    background-color: #435e6d; /* Couleur d'hover plus douce */
+}
+
+.sidebar-icon {
+    margin-right: 10px;
+}
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    width: 150px; 
+    height: auto;
+  }
+
+  .sidebar ul li a svg {
+    margin-right: 10px;
+  }
+  
+  .sidebar-footer {
+    margin-top: 20px;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .btn {
+    background-color: #2e68b3; /* Bleu doux pour les boutons */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1c4879; /* Couleur plus foncée au hover */
+}
+
+.btn-danger {
+    background-color: #e74c3c; /* Rouge clair pour déconnexion */
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
